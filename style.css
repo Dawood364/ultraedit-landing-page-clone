@@ -1,0 +1,319 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    position: relative;
+    top: 15px;
+    display: flex;
+    /* background-color: aqua; */
+    width: 100vw;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+
+}
+
+.right ul {
+    display: flex;
+    gap: 40px;
+}
+
+.right ul li {
+    list-style-type: none;
+
+}
+
+.right ul li {
+    display: flex;
+    /* align-items: center; */
+    font-family: Segoe UI;
+    color: #222;
+    cursor: pointer;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    /* background-color: yellow; */
+    display: flex;
+}
+
+.right ul li span {
+    padding-left: 6px;
+}
+
+strong {
+    font-weight: 700px;
+    font-size: 100%;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.first {
+
+    position: relative;
+    top: 100px;
+    left: 390px;
+    /* background-color: red; */
+    width: 60vw;
+}
+
+h3 {
+    margin-top: 40px;
+    font-size: 24px;
+    font-family: 'Segoe UI';
+    line-height: 1.3em;
+    font-weight: lighter;
+}
+
+#button {
+    background-color: #09a6bd;
+    padding: 12px 20px 12px 20px;
+    border-radius: 5px;
+    position: relative;
+    left: 250px;
+    margin-top: 15px;
+    color: #ffffff;
+    font-size: larger;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+}
+
+h3 span {
+    position: relative;
+    left: 300px;
+}
+
+.image {
+    /* background-color: red; */
+    width: 40vw;
+    position: relative;
+    right: 20px;
+    margin-top: 80px;
+}
+
+.text {
+    position: relative;
+    left: 80px;
+    bottom: 90px;
+}
+
+.container {
+    position: relative;
+    margin-top: 70px;
+    left: 350px;
+    height: 100vh;
+    width: 70vw;
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5px;
+    place-items: center;
+
+
+}
+
+.item {
+
+    background-color: rgb(249, 249, 249);
+    height: 150px;
+    width: 290px;
+}
+
+#button2 {
+
+    position: relative;
+    top: 20px;
+    left: 80px;
+    background-color: #29c526;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.container strong {
+    bottom: 30px;
+    position: relative;
+    left: 100px;
+    font-weight: 700;
+}
+
+.down {
+    background-color: #222222;
+    width: 99vw;
+    height: 100vh;
+}
+
+.textd {
+    color: white;
+    font-size: 100%;
+}
+
+.textd h3 {
+    position: relative;
+    left: 300px;
+    top: 150px;
+}
+
+.txt2 h3 {
+    margin-top: 20px;
+}
+
+.sign {
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+    height: 30vh;
+    width: 20vw;
+    position: relative;
+    left: 950px;
+    bottom: 40px;
+}
+
+.stxt {
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+    color: #00b6d1 !important;
+    font-weight: bold;
+}
+
+.signe p {
+    /* text-align: center; */
+}
+
+#email {
+    text-align: center;
+    /* text-align: center; */
+    padding: 30px;
+    position: relative;
+    left: 10px;
+    width: 19vw;
+    padding-bottom: 10px;
+    border-radius: 5px;
+
+}
+
+label p {
+    text-align: center;
+
+
+}
+
+
+.buttonb p {
+    text-align: center;
+    position: relative;
+    right: 75px;
+
+}
+
+.dk {
+    margin-top: 5px;
+    background-color: #00b6d1 !important;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    padding-left: 200px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+    text-align: end;
+    align-items: center;
+}
+
+.content {
+    position: relative;
+    bottom: 20px;
+    line-height: 30px;
+    left: 300px;
+}
+
+.content2 {
+    line-height: 30px;
+}
+
+.foot {
+    display: flex;
+    gap: 50px;
+    position: relative;
+    top: 119px;
+    right: 80px;
+    /* background-color: #00b6d1; */
+    height: 50vh;
+    width: 90vw;
+
+}
+
+.piece {
+
+    padding: 10px;
+
+    /* background-color: aqua; */
+
+}
+
+.piece h3 {
+    position: relative;
+    text-align: center;
+    bottom: 5px;
+}
+
+#bton {
+    border-radius: 10px;
+    padding: 10px 10px;
+    width: 200px;
+    position: relative;
+    top: 10px;
+    left: 30px;
+
+}
+
+.bbs {
+    position: relative;
+    top: 20px;
+    right: 2px;
+}
+
+.bbs2 {
+    padding: 10px;
+    width: 220px;
+    background-color: #00b6d1;
+    border-radius: 10px;
+}
+
+.lorem {
+    position: relative;
+    top: 300px;
+    right: 60px;
+}
+
+.icons {
+    position: relative;
+    left: 840px;
+    top: 250px;
+}
+
+.piece li {
+    list-style-type: none;
+}
+
+.bset {
+    position: relative;
+    right: 34px;
+}
